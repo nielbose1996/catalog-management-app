@@ -101,6 +101,7 @@ const DataGridTable = ({ cart, setCart }) => {
       headerName: "",
       width: 142,
       sortable: false,
+      filterable:false,
       renderCell: (params) => (
         <Button
           variant="contained"
